@@ -3,10 +3,9 @@ kind: Kustomization
 images:
 - name: 019960007402.dkr.ecr.ap-northeast-2.amazonaws.com/demo-frontend
   newName: 019960007402.dkr.ecr.ap-northeast-2.amazonaws.com/demo-frontend
-  newTag: 69bdbd17
+  newTag: 3ff8d548
 resources:
 - ../../base
 patchesStrategicMerge:
 - front-deployment-patch.yaml
 - front-service-patch.yaml
-
